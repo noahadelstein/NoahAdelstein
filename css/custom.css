@@ -36,7 +36,7 @@
   padding-left: 30px;
 }
 #jumbotext1 {
-  font-size: 20px;
+  font-size: 16px;
   padding-right: 30px;
   padding-left: 30px;
   text-align: center;
@@ -56,7 +56,7 @@ body{
 }
 .subheading {
   padding-left: 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 subheading2 {
   padding-left: 20px;
@@ -84,9 +84,7 @@ font-weight: bold;
   text-align: center;
   font-size: 24px;
 }
-.kristin {
-  padding-left: 5px;
-}
+
 #semester {
   font-size: 18px;
 }
@@ -115,7 +113,7 @@ padding-left: 120px;
 #disaster {
   width: 380px;
 margin-right: 20px;
-
+padding-bottom: 10px;
 }
 #read {
   font-size: 12px;
@@ -158,4 +156,7 @@ input:focus, input:hover, textarea:hover, textarea:focus {
 }
 .purple {
   font-size: 70%;
+}
+.thanks {
+  text-align: center;
 }
