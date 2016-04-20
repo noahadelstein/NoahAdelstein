@@ -65,29 +65,13 @@ subheading2 {
 .group {
   font-size: 14px;
 }
-#small {
-  font-size: 15px;
-}
-.small {
-  font-size: 24px;
-  color: black;
-}
-#q1 {
 
-}
-.course-displaysemester{
-text-align: center;
-font-size: 36px;
-font-weight: bold;
-}
+
 #read {
   text-align: center;
   font-size: 24px;
 }
 
-#semester {
-  font-size: 18px;
-}
 .newshead{
   font-size: 24px;
 }
@@ -95,12 +79,7 @@ font-weight: bold;
   text-align: center;
   font-size: 20px;
 }
-.img-responsive {
 
-}
-#lingo{
-  font-size: 24px;
-}
 #socialmed {
 padding-left: 120px;
 }
