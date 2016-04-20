@@ -110,6 +110,10 @@ padding-left: 120px;
 #p1 {
   font-size: 30px;
 }
+#p2 {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
 #disaster {
   width: 380px;
 margin-right: 20px;
@@ -133,7 +137,7 @@ padding-bottom: 20px;
   padding-bottom: 20px;
 }
 .interests {
-  color: Blue;
+  color: #f30505;
 }
 .bigint {
   font-weight: bold;
@@ -143,7 +147,7 @@ padding-bottom: 20px;
 }
 input, textarea{
   font-size: 120%;
-  color: #002244;
+  color: #f30505;
   border: 2px solid black;
   border-radius: 5px;
   padding: 5px 5px 5px 5px;
