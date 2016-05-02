@@ -155,6 +155,9 @@ input:focus, input:hover, textarea:hover, textarea:focus {
   padding-left: 120px;
   padding-right: 120px;
 }
+#resume {
+  display: inline;
+}
 img {
   border: 0;
 }
