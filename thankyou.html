@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/custom.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/jquery.modal.css" media="screen">
       <img src = "img/quit.png" class="img-responsive" alt="Responsive image" >
 
 
@@ -21,8 +22,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
-  <nav class="navbar navbar-inverse">
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
 
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -51,6 +52,8 @@
             <li><a href="#socialmed">Social Media</a></li>
                     <li><a href="#article">Articles</a></li>
                         <li><a href="#contact">Contact Me</a></li>
+                        <li><a href="http://noahadelstein.github.io/NoahAdelstein/resume.html">Resume</a></li>
+
           </ul>
 
           <!-- <ul class="nav navbar-nav navbar-right">
@@ -68,19 +71,53 @@
           </ul> -->
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
+      <div class="thanks">
 
+
+      <h2>
+      Thank you for your submission, I will get in touch soon! </h2>
+      </div>
 
 </nav>
+<div id="img1" style="display:none;">
 
+      <img src="img/me1.jpg">
+    </div>
+    <div id="img2" style="display:none;">
+          <img src="img/me2.jpg">
+        </div>
+        <div id="img3" style="display:none;">
+              <img src="img/me3.jpg">
+            </div>
+            <div id="img4" style="display:none;">
+                  <img src="img/me4.jpg">
+                </div>
+                <div id="img5" style="display:none;">
+                      <img src="img/me5.jpg">
+                    </div>
+                    <div id="img6" style="display:none;">
+                          <img src="img/me6.jpg">
+                        </div>
+                        <div id="img7" style="display:none;">
+                              <img src="img/me7.jpg">
+                            </div>
+                            <div id="img8" style="display:none;">
+                                  <img src="img/me8.jpg">
+                                </div>
 
+<h2 id = "intro">
+  <br />
+Purpose of the site</h2>
 <br />
-<div class="thanks">
+<p id = "intro2">
 
-
-<h2>
-Thank you for your submission, I will get in touch soon! </h2>
-</div>
-
+I have built out a site that is all about me. If you'd like to get to know more about me, find out my interests, see my resume, or get in touch, this is the perfect place to do so.
+<br />
+<br />
+There are multiple sections througout the site, each with a different purpose. The about me and activities sections are meant to give a view into the things I am interested in, involved with (my resume helps with that too) and my background. The Q&A goes deeper into the type of person I am, my articles give a view of my professional writing, and the photos give a view into my friends and personality outside of working.
+<br /><br />
+If there are questions you would like me to add to my list, send them over on the contact form and I will look into putting them up, and if you would like to get in touch to collaborate, get advice or just have a conversation please reach out! I love meeting new people and hearing about different experiences.
+</p>
 <div class="container">
   <div class="row">
 <h1 class="col-md-12"></h1>
@@ -92,27 +129,29 @@ Thank you for your submission, I will get in touch soon! </h2>
   <div class = "subheading2">
     <div class="jumbotron">
     <h2 id ="about">About Me</h2>
+
+
     <p>
     I come from Denver, Colorado and a loving family including a younger brother and sister. I went to Kent Denver High School, and am now a freshman at Washington University in St. Louis studying Finance and Computer Science.
 <br />
 <br />
 
-I am interested in many things, but here's a short list:
+I am interested in many things, but to name a few, I enjoy:
 <div class="interests">
 
 
-Playing soccer, reading, skiing and snowboarding, motiviation,  meeting new people, watching sports, learning about the world, helping others
+Playing soccer, reading, skiing and snowboarding, motiviation,  meeting new people, watching sports, learning about the world, and helping others
 
 </div>
-<h3>
-With a particularly large interest in :
 <br />
+<h4>
+I have a particularly large interest in: <br />
 <br />
 <div class="bigint">
 
   Start ups, new ideas and the advancement of society
 </div>
-</h3>
+</h4>
   </p>
 
     <!-- </div> -->
@@ -180,7 +219,11 @@ With a particularly large interest in :
       </div> -->
     </div>
   </div>
-  <div class="jumbotron" id = "text">
+    <div class="working">
+  <div class="jumbotron" id = "QA">
+
+
+
   <h2 id ="activities">What I'm Working on</h2>
   <p>
 I'm the type of person that loves involving myself in experiences and activities around me.
@@ -189,7 +232,7 @@ I'm the type of person that loves involving myself in experiences and activities
 One day I know that I want to start a company, and I will be the first to admit that I don't have the idea yet.
 <br />
 <br />
-I'm constantly paying attention to ineficiencies in society and thinking about ways to improve them, but more than that, I am focused on continuing to grow personally, socially, and mentally so that when I get the idea that I know I will get at some point I will have the skills, energy and network to run with it.
+I'm constantly paying attention to inefficiencies in society and thinking about ways to improve them. But more than that, I am focused on continuing to grow personally, socially, and mentally so that when I get the idea that I know I will get at some point, I will have the skills, energy and network to run with it.
 <br /><br />
 So to continue to grow I have gotten involved with many different organizations. I am definitely very busy, but I enjoy everything I do which gives me the energy to take it all head on.
 <br />
@@ -201,21 +244,28 @@ Here's a short list:
    <li>
 Co-Owner of St. Louis Cardinals blog, <a href="http://cardsblog.com" target = "_blank"> Cardsblog </a></li>
 
-   <li>
-Member of Delta Sigma Pi   </li>
-   <li>
-Pledging Beta Theta Pi   </li>
+
    <li>
 Director of member relations for <a href="http://ysthoughts.org" target = "_blank"> Y's Thoughts</a></li>
 <li>
 Operational Marketing intern at <a href="http://topopps.com" target = "_blank"> TopOPPS</a>    </li>
+<li>
+Member of Delta Sigma Pi   </li>
+<li>
+Member of Beta Theta Pi   </li>
  </ul>
+
 
 </p>
 </div>
-<img src = "img/moutain.jpg" class="img-responsive" alt="Responsive image">
-<div id = "text">
 
+<img src = "img/moutain.jpg" class="img-responsive" alt="Responsive image">
+
+<!-- <div id = "text"> -->
+
+
+<div class="jumbotron">
+<div class="QA">
 
 
 <h2>Q&A With Me</h2>
@@ -228,31 +278,29 @@ Question 1: Why did you choose Wash U for college?
   I had heard of Wash U because my mom grew up in St. Louis and my grandparents attended school here. When applying to college, I had the test scores to put me in contension at a school like Wash U, but my grades were a little low for what was expected. So I applied to a lot of competitive schools, hoping one would take me. Wash U was the only one that did take me, and it ended up working out perfectly. Couldn't be happier here.
 </p>
 <h3>
-Question 2: What is one of your favorite quotes?
+Question 2: Why the quote on the top of the page?
 </h3>
 <p>
-  "You laugh at me because I'm different, I laugh at you because you're all the same." - Jonathan Davis.
 
-  <br />
-  <br />
-  It's not that I am a different kind of person for the sole purpose of wanting to be different. I am different because I want to do a lot during my time alive. The people that are different are the ones we know and think of when considering the movers and shakers in society, and I am going to do everything I can to be one of those people.
+I am one of the most motivated people you will meet. We have a limited time to be around and each day I make the most of my 86400 seconds. No matter what happens in my life, and I'm sure there will be tough moments, I am going to continue to push through and work hard. Beacuse when I'm about to die and I'm looking back on my life, I am going to remember the experiences I had, the people that I am close with, and the lives that I touched.
 
+<br />
+<br />
+I don't want any dreams left. I don't want to look back and wish I had done that one extra thing. And because of that, I won't quit, or give up. I will keep grinding and working hard because as another of my favorite quotes goes, "I have the opportunity of a lifetime, but it doesn't mean anything if I don't take advantage in the lifetime of this opportunity," (Eric Thomas).
 </p>
 <h3>
 Question 3: What do you do in everyday life that's different?
 </h3>
 <p>
 
-I work harder than almost everyone. There's another quote I love by Will Smith that goes, "You might have more talent than me, you might be smarter than me, you might be sexier than me... But if we get on the treadmill together, there's two things: You're getting off first, or I'm going to die."
-<br />
-<br />
 I put value in enjoying life and connecting with others, but when all is said and done, I believe I am here to leave a big impact and to do that I have to make the most out of each and every second of my life. I am constantly looking for new opportuntities, reflecting to grow as a person, and working to connect with others, because when all is said and done, and I am looking back on my life, I want to know that I did everything I possibly could have done.
 <br />
 <br />
 So on a day-to-day basis, I avoid spending my time doing things that are of no value to me. I hardly watch television, I don't use Netflix, I never play video games (unless in a social setting, and even then typically not). I sleep less most nights than people. Because think about this. If you sleep 9 hours a night and I sleep 6, then over the course of a week I have 21 more hours in my day than you, or over the course of a year almost 1100 hours (45 days). So instead of messing around I am studying, reading, connecting with people, having memorable experiences, reflecting, and making the most out of this wonderful thing called life.
 </p>
-
-
+</div>
+</div>
+</div>
   <!-- </div> -->
   </div>
 <div id="article">
@@ -261,7 +309,7 @@ So on a day-to-day basis, I avoid spending my time doing things that are of no v
   </h1>
   <div class="container">
     <div class="row">
-  <h1 class="col-md-12"></h1>
+  <h1 class="col- md-12"></h1>
 
     </div>
     <div class="row">
@@ -271,7 +319,7 @@ So on a day-to-day basis, I avoid spending my time doing things that are of no v
       <div class="jumbotron">
       <h2 id ="about">Cardsblog Articles</h2>
       <p id = "p1">
-          <img src="img/c1.jpg" id = "disaster" align = "left">
+          <img src="img/c1.jpg" id = "disaster" align = "left" class="img-responsive" alt="Responsive image">
 
           <h4 id = "titlee">
 
@@ -285,7 +333,7 @@ So on a day-to-day basis, I avoid spending my time doing things that are of no v
       </p>
 
       <p id = "p1">
-          <img src="img/c2.jpg" id = "disaster" align = "left">
+          <img src="img/c2.jpg" id = "disaster" align = "left" class="img-responsive" alt="Responsive image">
           <h4 id = "titlee">
             <a href = "http://www.cardsblog.com/cardinals-piscotty-patrols-right/" target = "_blank"> Cardinals Reason #10: Piscotty Patrols Right Field </a></h4>
        </h4>
@@ -300,7 +348,7 @@ So on a day-to-day basis, I avoid spending my time doing things that are of no v
       </p>
 
       <p id = "p1">
-          <img src="img/c3.jpg" id = "disaster" align = "left">
+          <img src="img/c3.jpg" id = "disaster" align = "left" class="img-responsive" alt="Responsive image">
           <h4 id = "titlee">
             <a href = "http://www.cardsblog.com/cardinals-win-series-every-five-years/" target = "_blank">  Cardinals Reason #16: Win the Series Every Five Years </a></h4>
 
@@ -314,7 +362,7 @@ After winning in 2006 and 2011, if the Cardinals continue the trends, they’ll 
       </p>
 
       <p id = "p1">
-          <img src="img/c4.jpg" id = "disaster" align = "left">
+          <img src="img/c4.jpg" id = "disaster" align = "left" class="img-responsive" alt="Responsive image">
           <h4 id = "titlee">
             <a href = "http://www.cardsblog.com/how-does-the-rams/" target = "_blank"> 29 Days: Cardinals Aided by Rams Departure </a></h4>
        </h4>
@@ -354,8 +402,8 @@ At the beginning of my internship with Indaba I had no idea what to expect. Comi
             <a href = "http://www.indabagroup.com/blog/entry/what-i-learned-interning-at-indaba-group" target = "_blank" id = "read"> Read more </a>
 
             </p> -->
-            <p id = "p1">
-                <img src="img/top.jpeg" id = "disasterr" align = "center">
+            <p id = "p2">
+                <img src="img/top.jpeg" id = "disasterr" align = "center" class="img-responsive" alt="Responsive image">
                 <h4 id = "intern">
                  My Time Interning at TopOPPS</h4>
 
@@ -392,7 +440,7 @@ At the beginning of my internship with Indaba I had no idea what to expect. Comi
 
 </div>
 
-<div id="text">
+<div id="text2">
 
 
   <h1 class="head">
@@ -403,60 +451,61 @@ At the beginning of my internship with Indaba I had no idea what to expect. Comi
   <div class="row">
 
   <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-
-      <img class="img-responsive" src="img/me1.jpg">
+<a href="#img1" class="thumbnail" rel="modal:open">
+      <img class="img-responsive" src="img/me1.jpg"></a>
+      <!-- <a href="#img3" rel="modal:open"><img src="http://imagizer.imageshack.us/v2/320x240q90/537/us0cqe.jpg"></a> -->
     </a>
   </div> <!-- col -->
 
   <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
+  <a href="#img2" class="thumbnail" rel="modal:open">
       <img class="img-responsive" src="img/me2.jpg">
     </a>
   </div> <!-- col -->
 
   <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
+    <a href="#img3" class="thumbnail" rel="modal:open">
       <img class="img-responsive" src="img/me3.jpg">
     </a>
   </div> <!-- col -->
 
   <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
+    <a href="#img4" class="thumbnail" rel="modal:open">
       <img class="img-responsive" src="img/me4.jpg">
     </a>
   </div> <!-- col -->
+</div>
 
   <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
+    <a href="#img5" class="thumbnail" rel="modal:open">
       <img class="img-responsive" src="img/me5.jpg">
     </a>
   </div> <!-- col -->
 
   <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
+    <a href="#img6" class="thumbnail" rel="modal:open">
       <img class="img-responsive" src="img/me6.jpg">
     </a>
   </div> <!-- col -->
 
   <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
+  <a href="#img7" class="thumbnail" rel="modal:open">
       <img class="img-responsive" src="img/me7.jpg">
     </a>
   </div> <!-- col -->
 
   <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
+  <a href="#img8" class="thumbnail" rel="modal:open">
       <img class="img-responsive" src="img/me8.jpg">
     </a>
   </div> <!-- col -->
 
-</div> <!-- row -->
+<!-- row -->
 <!-- </div> -->
 <div id="contact">
 
 
-<h3 id = "formhead"> Interested in learning more about what I do or want to get in touch? <div class="purple">
+<h3 id = "formhead"> Interested in learning more about what I do, want to suggestion a question for the site, or want to get in touch? <div class="purple">
 
  (my favorite color is purple)</div></h3>
 <!-- <form action="//formspree.io/your@email.com"
@@ -487,12 +536,14 @@ At the beginning of my internship with Indaba I had no idea what to expect. Comi
       </form>
       </div> <!-- end box -->
       </div>
-  <body>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.12.0.min.js"></script>
+           <script src="js/jquery.modal.min.js"></script>
   </body>
 
 
