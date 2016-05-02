@@ -33,7 +33,7 @@
 #activities {
   text-align: center;
   padding-bottom: 50px;
-  font-size: 48px;
+  font-size: 250%;
 }
 #jumbotext {
   font-size: 24px;
@@ -149,9 +149,16 @@ input:focus, input:hover, textarea:hover, textarea:focus {
 .thanks {
   text-align: center;
 }
-#intro{
+#quotehead{
   text-align: center;
-  font-size: 24px;
+}
+#intro{
+  font-size: 32px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+#intro2{
+  font-size: 20px;
   padding-left: 120px;
   padding-right: 120px;
 }
@@ -200,5 +207,5 @@ img {
 }
 #QA{
   padding-left: 40px;
-  padding-right: 50px;
+  padding-right: 40px;
 }
